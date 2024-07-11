@@ -1,0 +1,26 @@
+/* CSS for the body */
+body{
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Blur Effect to form and table */
+.glass{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.btn{
+    transition: transform 0.2s, background 0.2s;
+}
+.btn:hover{
+    transform: scale(1.02);
+}
+
+/* Scroll bar  */
+.scroll-bar{
+    overflow-y: auto;
+    overflow-x: auto;
+    max-height: 500px;
+}
