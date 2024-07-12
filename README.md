@@ -30,3 +30,8 @@ https://github.com/ejazulhaque09/Student_Registration_System.git
 ### -> Hosted Link
 
 Link -> [Student_Registration_System](https://ejazulhaque09.github.io/Student_Registration_System/)
+
+
+## Screeshot
+![Screenshot 2024-07-12 100749](https://github.com/user-attachments/assets/96d523de-8b97-489b-9c3f-3b5b12e0c99c)
+
