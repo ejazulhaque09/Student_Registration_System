@@ -40,13 +40,13 @@ function renderRecords() {
         const row = document.createElement('tr');   // creates new tr element
 
         row.innerHTML = `
-            <td class="p-2 border border-gray-300">${record.studentName}</td> 
-            <td class="p-2 border border-gray-300">${record.studentId}</td>
-            <td class="p-2 border border-gray-300">${record.emailId}</td>
-            <td class="p-2 border border-gray-300">${record.contactNo}</td>
-            <td class="border border-gray-300 flex p-2 jusify-center item-center"> 
-                <button class="edit mx-1 btn bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition transform hover:scale-105" onClick = "editRecord(${index})">Edit</button> 
-                <button class="delete mx-1 btn bg-red-500 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded transition transform hover:scale-105" onClick = "deleteRecord(${index})">Delete</button> 
+            <td class="p-2 text-center border-b-2 border-gray-300">${record.studentName}</td> 
+            <td class="p-2 text-center border-b-2 border-gray-300">${record.studentId}</td>
+            <td class="p-2 text-center border-b-2 border-gray-300">${record.emailId}</td>
+            <td class="p-2 text-center border-b-2 border-gray-300">${record.contactNo}</td>
+            <td class="p-2 text-center border-b-2 border-gray-300 "> 
+                <button class="edit m-1 w-20 btn bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition transform hover:scale-105" onClick = "editRecord(${index})">Edit</button> 
+                <button class="delete m-1 w-20 btn bg-red-500 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded transition transform hover:scale-105" onClick = "deleteRecord(${index})">Delete</button> 
             </td>`;
 
 

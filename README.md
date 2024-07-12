@@ -25,7 +25,7 @@ The application is designed to be responsive and works well on varios screen siz
 ## Installation
 ### -> Clone the Repository
 
-Link -> [Student_Registration_System](https://github.com/ejazulhaque09/Student_Registration_System.git)
+https://github.com/ejazulhaque09/Student_Registration_System.git
 
 ### -> Hosted Link
 
